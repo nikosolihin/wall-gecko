@@ -1,0 +1,23 @@
+.box {
+  display: none;
+  width: 100px;
+  height: 100px;
+  margin: 30px;
+  padding: 10px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.box1 {
+  display: block;
+  background-color: gold;
+  @media (min-width: 576px) {
+    background-color: navy;
+  }
+}
+.box2 {
+  background-color: salmon;
+}
+.box3 {
+  background-color: mediumslateblue;
+}
